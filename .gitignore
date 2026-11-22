@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Model / export artifacts
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# Data and internal material (defense in depth)
+data/
+docs/deliverables/
+docs/planning/
+docs/runbooks/
+docs/scripts/
+research/
+notebooks/
+*.zip
+*.tar.gz
+*.log
+*.sqlite
+*.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
